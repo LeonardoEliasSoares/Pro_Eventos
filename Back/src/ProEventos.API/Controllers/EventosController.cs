@@ -17,7 +17,6 @@ namespace ProEventos.API.Controllers
         public EventosController(DataContext context)
         {
             _context = context;
-
         }
 
         [HttpGet]
